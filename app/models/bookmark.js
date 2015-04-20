@@ -1,6 +1,6 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  bookamrks: DS.attr('string'),
+  bookmark: DS.attr('string'),
   url: DS.attr('string')
 });
